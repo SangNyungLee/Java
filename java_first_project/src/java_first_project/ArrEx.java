@@ -8,7 +8,7 @@ public class ArrEx {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		int[] intArray = new int[5];	//크기가 5인 int 배열
+		int[] intArray = new int[5];	//크기가 5인 int 배열추가
 		
 		System.out.println("숫자 5개인 배열을 입력해주세요.");
 		for(int i=0; i<intArray.length ; i++) {
