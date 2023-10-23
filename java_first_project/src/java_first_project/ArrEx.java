@@ -14,7 +14,16 @@ public class ArrEx {
 		for(int i=0; i<intArray.length ; i++) {
 			intArray[i] = sc.nextInt();
 		}
-		//Arrays.toString 배열의 요소를 문자열로 변환
+		//방법2 : Arrays.toString 배열의 요소를 문자열로 변환
 		System.out.print(Arrays.toString(intArray));
+		System.out.println(intArray);
+		
+		//방법3 : for-each 문 사용
+		int sum = 0;
+		for(int arr: intArray) {
+			System.out.print(arr+" ");
+			sum += arr;
+		}
+		System.out.println(sum);
 	}
 }
